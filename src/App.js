@@ -5,7 +5,8 @@ import Services from './components/Services';
 function App() {
   return (
     <section>
-     hlw
+      <Banner />
+      <Services />
     </section>
   );
 }
