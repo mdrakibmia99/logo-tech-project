@@ -28,3 +28,9 @@
   z-index: -1;
 }
 
+/* service cart  */
+.service-card{
+  background:no-repeat,no-repeat;
+  background-position: top left,bottom right;
+  background-size: auto;
+}
