@@ -36,7 +36,7 @@ const Services = () => {
     ];
 
     return (
-        <section className=''>
+        <section>
             <div className='container mx-auto'>
                 <div className='flex justify-center'>
                     <h1

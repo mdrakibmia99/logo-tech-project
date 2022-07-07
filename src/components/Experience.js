@@ -29,7 +29,48 @@ const Experience = () => {
                         <button className='py-2 px-4 rounded bg-[#00B3FF] border border-transparent hover:border hover:border-white hover:bg-transparent duration-500'>Contact us</button>
                     </div>
                 </div>
-               
+                <div className='relative lg:block hidden'>
+                    {/* circle 1 */}
+                    <div className='absolute lg:top-0 lg:left-[15%]'>
+                        <div className='h-[150px] w-[150px] flex flex-col justify-center items-center bg-[#378ecd] rounded-full relative shadow-xl'>
+                            <div className='w-fit text-white text-3xl'>150+</div>
+                            <div
+                                className='w-fit bg-white px-4 py-1 rounded-2xl whitespace-nowrap text-sm absolute top-[70%] left-[30%]'
+                            >
+                                <i class="fa fa-unlock" aria-hidden="true"></i> <span>Completed Projects</span></div>
+                        </div>
+                    </div>
+                    {/* circle 2 */}
+                    <div className='absolute lg:top-[40%] lg:left-[75%]'>
+                        <div className='h-[130px] w-[130px] flex flex-col justify-center items-center bg-[#378ecd] rounded-full relative shadow-xl'>
+                            <div className='w-fit text-white text-2xl'>200+</div>
+                            <div
+                                className='w-fit bg-white px-4 py-1 rounded-2xl whitespace-nowrap text-sm absolute top-[70%] left-[30%]'
+                            >
+                                <i class="fa fa-users" aria-hidden="true"></i> <span>Happy Customers</span></div>
+                        </div>
+                    </div>
+                    {/* circle 3 */}
+                    <div className='absolute lg:top-[90%] lg:left-[10%]'>
+                        <div className='h-[100px] w-[100px] flex flex-col justify-center items-center bg-[#378ecd] rounded-full relative shadow-xl'>
+                            <div className='w-fit text-white text-xl'>40+</div>
+                            <div
+                                className='w-fit bg-white px-4 py-1 rounded-2xl whitespace-nowrap text-sm absolute top-[70%] left-[30%]'
+                            >
+                                <i class="fa fa-trophy" aria-hidden="true"></i> <span>Awards</span></div>
+                        </div>
+                    </div>
+                    {/* circle 4 */}
+                    <div className='absolute lg:top-[55%] lg:left-[40%]'>
+                        <div className='h-[110px] w-[110px] flex flex-col justify-center items-center bg-[#378ecd] rounded-full relative shadow-xl'>
+                            <div className='w-fit text-white text-xl'>80+</div>
+                            <div
+                                className='w-fit bg-white px-4 py-1 rounded-2xl whitespace-nowrap text-sm absolute top-[70%] left-[30%]'
+                            >
+                                <i className="fa fa-compress" aria-hidden="true"></i> <span>Team Members</span></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
