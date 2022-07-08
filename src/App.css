@@ -34,3 +34,14 @@
   background-position: top left,bottom right;
   background-size: auto;
 }
+
+/* for background  */
+#foreground-bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: .8rem;
+}
