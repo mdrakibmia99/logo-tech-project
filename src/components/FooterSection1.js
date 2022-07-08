@@ -8,10 +8,10 @@ const FooterSection1 = () => {
     const member =
     {
         social: {
-            facebook: 'https://www.facebook.com/hasibulislam999.dev',
-            twitter: 'https://twitter.com/hasibulislam999',
-            linkedin: 'https://www.linkedin.com/in/hasibulislam999/',
-            github: 'https://github.com/hasibulislam999'
+            facebook: 'https://www.facebook.com/rakibmia.dev',
+            twitter: 'https://twitter.com/MdRakib63447617',
+            linkedin: 'https://www.linkedin.com/in/md-rakib-mia/',
+            github: 'https://github.com/mdrakibmia99'
         }
     };
     const infos = [
