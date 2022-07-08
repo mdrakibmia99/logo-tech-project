@@ -1,6 +1,6 @@
 import React from 'react';
 import AskSoftware from './AskSoftware';
-import footerBG from '../assets/svg/footer-bg.svg';
+import footerBG from '../assets/svg/';
 import FooterSection1 from './FooterSection1';
 
 const Footer = () => {
