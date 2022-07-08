@@ -44,7 +44,7 @@ const Portfolio = () => {
                     <div className='flex justify-between'>
                         <div>
                             <div className='mb-2'>
-                                <h5 className='text-[20px]'>Our Portfolio</h5>
+                                <h5 className='text-[20px]'> <span className='border-t-2 border-t-[#09B7E2] border-b-2 border-b-black border-l-2 border-l-black border-r-[#09B7E2] border-r-2'>Our Portfolio</span></h5>
                             </div>
                             <div className='mb-12'>
                                 <h3 className='text-3xl text-[#09B7E2]'>
