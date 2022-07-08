@@ -54,13 +54,13 @@ const Services = () => {
                             <div className='flex justify-end mb-4'>
                                 <div
                                     style={{ backgroundImage: `url(${serviceBG})` }}
-                                    className='bg-no-repeat bg-contain h-[54px] w-[54px] flex justify-center items-center'
+                                    className='bg-no-repeat bg-contain h-[54px] w-[54px] flex justify-center items-center mr-5' 
                                 >
                                     <img src={service?.icon} alt="service logo" />
                                 </div>
                             </div>
                             <div className='mb-2'>
-                                <h5 className='font-bold'>{service?.title}</h5>
+                                <h5 className='font-bold text-end whitespace-nowrap'>{service?.title}</h5>
                             </div>
                             <div>
                                 <p className='text-sm text-justify'>{service?.detail}</p>
