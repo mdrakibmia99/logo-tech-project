@@ -6,7 +6,7 @@ import pofo4 from '../assets/png/portfolio/pofo-4.png';
 import pofo5 from '../assets/png/portfolio/pofo-5.png';
 
 const Portfolio = () => {
-    const portfolioDetails = [
+    const pofos = [
         {
             title: 'Mechine Learning NFT Softweare',
             desc: 'mauris. Condimentum aliquet sed amet augue consectetur. Orci id in ut.',
@@ -41,10 +41,10 @@ const Portfolio = () => {
         >
             <div className='container mx-auto'>
                 <div className='lg:mx-0 mx-4'>
-                    <div className='flex justify-between'>
+                    <div className='flex lg:justify-between lg:flex-row flex-col lg:mx-0 mx-2 lg:mb-0 mb-4'>
                         <div>
-                            <div className='mb-2'>
-                                <h5 className='text-[20px]'> <span className='border-t-2 border-t-[#09B7E2] border-b-2 border-b-black border-l-2 border-l-black border-r-[#09B7E2] border-r-2'>Our Portfolio</span></h5>
+                            <div className='mb-4'>
+                                <h5 className='text-[20px] border-b-2 border-b-[#00b3ff] w-fit'>Our Portfolio</h5>
                             </div>
                             <div className='mb-12'>
                                 <h3 className='text-3xl text-[#09B7E2]'>
@@ -53,9 +53,6 @@ const Portfolio = () => {
                                 </h3>
                             </div>
                         </div>
-                        <div>
-                            <button className='py-2 px-4 rounded bg-[#00B3FF] border border-transparent hover:border hover:border-[#00B3FF] hover:bg-transparent duration-500 text-white hover:text-black'>View All</button>
-                        </div>
                     </div>
                     <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-x-4 gap-y-4'>
                         <div
@@ -63,18 +60,18 @@ const Portfolio = () => {
                             className='bg-no-repeat bg-cover bg-center rounded-md text-white flex flex-col justify-center items-center relative lg:py-0 py-4 lg:mb-0 mb-4'
                         >
                             <div id='foreground-bg'></div>
-                            <h3 className='font-bold text-2xl z-[1]'>{portfolioDetails[0].title}</h3>
-                            <p className='z-[1] text-center'>{portfolioDetails[0].desc}</p>
+                            <h3 className='font-bold text-2xl z-[1]'>{pofos[0].title}</h3>
+                            <p className='z-[1] text-center'>{pofos[0].desc}</p>
                         </div>
                         <div>
                             <div
                                 className='h-[400px] overflow-y-auto px-4'
                             >
                                 {
-                                    portfolioDetails.slice(1).map((pofo, index) =>
+                                    pofos.slice(1).map((pofo, index) =>
                                         <div
                                             key={index}
-                                            className={`flex ${index !== (portfolioDetails.length - 2) && 'mb-4'}`}
+                                            className={`flex ${index !== (pofos.length - 2) && 'mb-4'}`}
                                         >
                                             <div className='mr-2'>
                                                 <img

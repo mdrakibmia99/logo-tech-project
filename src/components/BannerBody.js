@@ -1,7 +1,13 @@
 import React from 'react';
+import { useState } from 'react';
 import earth from '../assets/svg/earth.svg';
+import Contact from './Contact';
+import Modal from './Modal';
 
 const BannerBody = () => {
+    const [showModalContact, setShowModalContact] = useState(false);
+    const contact = 'Contact form';
+
     return (
         <section>
             <div
@@ -19,20 +25,20 @@ const BannerBody = () => {
                         </p>
                     </div>
                     <div className='flex gap-x-8'>
-                        <button className='py-2 px-4 rounded bg-[#00B3FF] border border-transparent hover:border hover:border-white hover:bg-transparent duration-500'>Learn more</button>
-                        <button className='py-2 px-4 rounded border border-white hover:border hover:border-transparent hover:bg-[#00B3FF] duration-500'><i className="fa fa-paper-plane" aria-hidden="true"></i> <span className='ml-2'>Contact us</span></button>
+                        <button className='py-2 px-4 rounded bg-[#00B3FF] border border-transparent hover:border hover:border-white hover:bg-transparent duration-500'><a href="#footer-section">Learn more</a></button>
+                        <button className='py-2 px-4 rounded border border-white hover:border hover:border-transparent hover:bg-[#00B3FF] duration-500'><i className="fa fa-paper-plane" aria-hidden="true"></i> <span className='ml-2' onClick={() => setShowModalContact(true)}>Contact us</span></button>
                     </div>
                     <div className='flex gap-x-2 mt-4'>
-                        <a href="/" className='text-xl'>
+                        <a target={'_blank'} rel='noreferrer' href="https://github.com/hasibulislam999" className='text-xl'>
                             <i className="fa fa-github" aria-hidden="true"></i>
                         </a>
-                        <a href="/" className='text-xl'>
+                        <a target={'_blank'} rel='noreferrer' href="https://www.linkedin.com/in/hasibulislam999/" className='text-xl'>
                             <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                         </a>
-                        <a href="/" className='text-xl'>
+                        <a target={'_blank'} rel='noreferrer' href="https://twitter.com/hasibulislam999" className='text-xl'>
                             <i className="fa fa-twitter" aria-hidden="true"></i>
                         </a>
-                        <a href="/" className='text-xl'>
+                        <a target={'_blank'} rel='noreferrer' href="https://www.facebook.com/hasibulislam999.dev" className='text-xl'>
                             <i className="fa fa-facebook-square" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -45,6 +51,18 @@ const BannerBody = () => {
                     />
                 </div>
             </div>
+            {
+                showModalContact &&
+                <Modal
+                    showModal={showModalContact}
+                    setShowModal={setShowModalContact}
+                    title={contact}
+                    content={<Contact
+                        showModalContact={showModalContact}
+                        setShowModalContact={setShowModalContact}
+                    />}
+                />
+            }
         </section>
     );
 };

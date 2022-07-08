@@ -13,6 +13,7 @@ const Banner = () => {
         <section
             style={{ backgroundImage: `url(${banner})` }}
             className='pb-24 bg-no-repeat bg-cover bg-bottom relative'
+            id='banner-section'
         >
             <div className='container mx-auto'>
                 <Header />
