@@ -27,6 +27,13 @@
   border-radius: 10px;
   z-index: -1;
 }
+.blond_border_bg:hover::after{
+  height: 100%;
+}
+
+.blond_border_bg:hover{
+  color: white;
+}
 
 /* service cart  */
 .service-card{
