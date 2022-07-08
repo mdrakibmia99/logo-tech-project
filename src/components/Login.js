@@ -26,13 +26,13 @@ const Login = ({ showModalLogin, setShowModalLogin }) => {
                 showModalLogin &&
                 <section>
                     <div>
-                        <div class="flex justify-center items-center bg-gray-100">
+                        <div className="flex justify-center items-center bg-gray-100">
                             <form
-                                class="p-10 bg-white rounded flex justify-center items-center flex-col"
+                                className="p-10 bg-white rounded flex justify-center items-center flex-col"
                                 onSubmit={handleLogin}
                             >
-                                <input type="email" name="email" class="mb-5 p-3 w-80 focus:border-[#00affa] rounded border-2 outline-none" autocomplete="off" placeholder="Email" required />
-                                <input type="password" name="password" class="mb-5 p-3 w-80 focus:border-[#00affa] rounded border-2 outline-none" autocomplete="off" placeholder="Password" required />
+                                <input type="email" name="email" className="mb-5 p-3 w-80 focus:border-[#00affa] rounded border-2 outline-none" autocomplete="off" placeholder="Email" required />
+                                <input type="password" name="password" className="mb-5 p-3 w-80 focus:border-[#00affa] rounded border-2 outline-none" autocomplete="off" placeholder="Password" required />
                                 <div className='flex justify-between w-full mb-8'>
                                     <span className='cursor-pointer' onClick={() => setShowModalReset(true)}>Forgot password?</span>
                                     <span className='cursor-pointer' onClick={() => setShowModalRegistration(true)}>Create account.</span>

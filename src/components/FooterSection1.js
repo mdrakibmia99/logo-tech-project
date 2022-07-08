@@ -48,7 +48,7 @@ const FooterSection1 = () => {
                     <div>
                         <div className='grid lg:grid-cols-3 lg:gap-x-4 md:grid-cols-2 grid-cols-1 gap-6'>
                             {
-                                infos.map(info => <div>
+                                infos.map((info,index) => <div key={index}>
                                     <div className='flex lg:justify-center justify-start'>
                                         <div className='mr-2'>
                                             <img

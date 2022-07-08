@@ -42,7 +42,7 @@ const Experience = () => {
                                 <div
                                     className='w-fit bg-white px-4 py-1 rounded-2xl whitespace-nowrap text-sm absolute top-[70%] left-[30%]'
                                 >
-                                    <i class="fa fa-unlock" aria-hidden="true"></i> <span>Completed Projects</span></div>
+                                    <i className="fa fa-unlock" aria-hidden="true"></i> <span>Completed Projects</span></div>
                             </div>
                         </div>
                         {/* circle 2 */}
@@ -52,7 +52,7 @@ const Experience = () => {
                                 <div
                                     className='w-fit bg-white px-4 py-1 rounded-2xl whitespace-nowrap text-sm absolute top-[70%] left-[30%]'
                                 >
-                                    <i class="fa fa-users" aria-hidden="true"></i> <span>Happy Customers</span></div>
+                                    <i className="fa fa-users" aria-hidden="true"></i> <span>Happy Customers</span></div>
                             </div>
                         </div>
                         {/* circle 3 */}
@@ -62,7 +62,7 @@ const Experience = () => {
                                 <div
                                     className='w-fit bg-white px-4 py-1 rounded-2xl whitespace-nowrap text-sm absolute top-[70%] left-[30%]'
                                 >
-                                    <i class="fa fa-trophy" aria-hidden="true"></i> <span>Awards</span></div>
+                                    <i className="fa fa-trophy" aria-hidden="true"></i> <span>Awards</span></div>
                             </div>
                         </div>
                         {/* circle 4 */}
