@@ -52,6 +52,94 @@ const TeamSlider = () => {
                 github: 'https://github.com/mdrakibmia99'
             }
         },
+        {
+            avatar: member1,
+            name: 'Mr . jhonny Adams',
+            designation: 'Software Engineer',
+            social: {
+                facebook: 'https://www.facebook.com/rakibmia.dev',
+                twitter: 'https://twitter.com/MdRakib63447617',
+                linkedin: 'https://www.linkedin.com/in/md-rakib-mia/',
+                github: 'https://github.com/mdrakibmia99'
+            }
+        },
+        {
+            avatar: member2,
+            name: 'Mr . jhonny Adams',
+            designation: 'Software Engineer',
+            social: {
+                facebook: 'https://www.facebook.com/rakibmia.dev',
+                twitter: 'https://twitter.com/MdRakib63447617',
+                linkedin: 'https://www.linkedin.com/in/md-rakib-mia/',
+                github: 'https://github.com/mdrakibmia99'
+            }
+        },
+        {
+            avatar: member3,
+            name: 'Mr . jhonny Adams',
+            designation: 'Software Engineer',
+            social: {
+                facebook: 'https://www.facebook.com/rakibmia.dev',
+                twitter: 'https://twitter.com/MdRakib63447617',
+                linkedin: 'https://www.linkedin.com/in/md-rakib-mia/',
+                github: 'https://github.com/mdrakibmia99'
+            }
+        },
+        {
+            avatar: member4,
+            name: 'Mr . jhonny Adams',
+            designation: 'Software Engineer',
+            social: {
+                facebook: 'https://www.facebook.com/rakibmia.dev',
+                twitter: 'https://twitter.com/MdRakib63447617',
+                linkedin: 'https://www.linkedin.com/in/md-rakib-mia/',
+                github: 'https://github.com/mdrakibmia99'
+            }
+        },
+        {
+            avatar: member1,
+            name: 'Mr . jhonny Adams',
+            designation: 'Software Engineer',
+            social: {
+                facebook: 'https://www.facebook.com/rakibmia.dev',
+                twitter: 'https://twitter.com/MdRakib63447617',
+                linkedin: 'https://www.linkedin.com/in/md-rakib-mia/',
+                github: 'https://github.com/mdrakibmia99'
+            }
+        },
+        {
+            avatar: member2,
+            name: 'Mr . jhonny Adams',
+            designation: 'Software Engineer',
+            social: {
+                facebook: 'https://www.facebook.com/rakibmia.dev',
+                twitter: 'https://twitter.com/MdRakib63447617',
+                linkedin: 'https://www.linkedin.com/in/md-rakib-mia/',
+                github: 'https://github.com/mdrakibmia99'
+            }
+        },
+        {
+            avatar: member3,
+            name: 'Mr . jhonny Adams',
+            designation: 'Software Engineer',
+            social: {
+                facebook: 'https://www.facebook.com/rakibmia.dev',
+                twitter: 'https://twitter.com/MdRakib63447617',
+                linkedin: 'https://www.linkedin.com/in/md-rakib-mia/',
+                github: 'https://github.com/mdrakibmia99'
+            }
+        },
+        {
+            avatar: member4,
+            name: 'Mr . jhonny Adams',
+            designation: 'Software Engineer',
+            social: {
+                facebook: 'https://www.facebook.com/rakibmia.dev',
+                twitter: 'https://twitter.com/MdRakib63447617',
+                linkedin: 'https://www.linkedin.com/in/md-rakib-mia/',
+                github: 'https://github.com/mdrakibmia99'
+            }
+        },
         
     ];
 
