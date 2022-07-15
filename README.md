@@ -1,6 +1,6 @@
 # Logo Tech
 
-# [Live Site ](https://logo-tech.netlify.app/) 
+# [Live Site ](https://logo-tech-f3479.web.app/) 
 # [GitHub Link ](https://github.com/mdrakibmia99/logo-tech-project)
 
 
